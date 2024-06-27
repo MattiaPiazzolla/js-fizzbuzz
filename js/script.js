@@ -4,9 +4,13 @@ for(let i = 1; i <= 100 ; i++){
     if (i % 3 == 0 && i % 5 == 0){
         console.log("FrizzBuzz");
     }
-    // CONTROLLO I NUMERI MULTIPLI DI
-    if(i % 3 == 0){
+    // CONTROLLO I NUMERI MULTIPLI DI 3
+     else if(i % 3 == 0){
         console.log("Frizz")
+    }
+    // CONTROLLO I NUMERI MULTIPLI DI 5
+    else if(i % 5 == 0){
+        console.log("Buzz")
     }
     console.log(i)
 
