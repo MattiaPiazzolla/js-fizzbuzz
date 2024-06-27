@@ -11,7 +11,9 @@ for(let i = 1; i <= 100 ; i++){
     // CONTROLLO I NUMERI MULTIPLI DI 5
     else if(i % 5 == 0){
         console.log("Buzz")
+    } 
+    else{
+        console.log(i)
     }
-    console.log(i)
 
 }
