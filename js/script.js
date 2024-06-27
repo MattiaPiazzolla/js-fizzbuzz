@@ -4,7 +4,10 @@ for(let i = 1; i <= 100 ; i++){
     if (i % 3 == 0 && i % 5 == 0){
         console.log("FrizzBuzz");
     }
-    
+    // CONTROLLO I NUMERI MULTIPLI DI
+    if(i % 3 == 0){
+        console.log("Frizz")
+    }
     console.log(i)
 
 }
